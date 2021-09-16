@@ -9,6 +9,7 @@ public class DepartmentService {
 	
 	public List<Department> findAll(){
 		
+		//mock os dados
 		List<Department> list = new ArrayList<>();
 		list.add(new Department(1, "Books"));
 		list.add(new Department(2, "Computers"));
